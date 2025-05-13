@@ -4,9 +4,10 @@ export default function Featured() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch("/featured.json")
+    fetch('/Norwich-Operations/featured.json')
       .then((res) => res.json())
-      .then(setArticles);
+      .then(setArticles)
+      .catch(error => console.error('Error loading featured content:', error));
   }, []);
 
   return (

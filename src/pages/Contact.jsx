@@ -114,7 +114,7 @@ export default function Contact() {
               className="relative overflow-hidden rounded-xl shadow-lg"
             >
               <img
-                src="/images/dr-shaikh-outside.jpg"
+                src={`${import.meta.env.BASE_URL}images/dr-shaikh-outside.jpg`}
                 alt="Hospital Building"
                 className="w-full h-96 object-cover"
                 style={{ objectPosition: '20% center' }}
@@ -125,7 +125,7 @@ export default function Contact() {
               className="relative overflow-hidden rounded-xl shadow-lg"
             >
               <img
-                src="/images/dr-shaikh-scrubs.jpeg"
+                src={`${import.meta.env.BASE_URL}images/dr-shaikh-scrubs.jpeg`}
                 alt="Dr. Shaikh in Scrubs"
                 className="w-full h-64 object-cover object-[center_30%]"
               />

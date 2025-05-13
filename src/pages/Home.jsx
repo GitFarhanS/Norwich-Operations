@@ -30,7 +30,7 @@ export default function Home() {
             className="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all"
           >
             <img
-              src="/images/dr-shaikh-speaking.jpeg"
+              src={`${import.meta.env.BASE_URL}images/dr-shaikh-speaking.jpeg`}
               alt="Professor Irshad Shaikh"
               className="w-full h-64 object-cover object-top transform hover:scale-105 transition-transform duration-500"/>
           </motion.div>
@@ -42,7 +42,7 @@ export default function Home() {
             className="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all"
           >
             <img
-              src="/images/dr-shaikh.jpg"
+              src={`${import.meta.env.BASE_URL}images/dr-shaikh.jpg`}
               alt="Dr. Shaikh with Surgical Robot"
               className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-500"
             />
@@ -55,7 +55,7 @@ export default function Home() {
             className="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all"
           >
             <img
-              src="/images/dr-shaikh-team.png"
+              src={`${import.meta.env.BASE_URL}images/dr-shaikh-team.png`}
               alt="Dr. Shaikh's Team"
               className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-500"
             />

@@ -7,9 +7,10 @@ export default function Testimonials() {
   const testimonialsPerPage = 3;
 
   useEffect(() => {
-    fetch("/testimonials.json")
+    fetch('/Norwich-Operations/testimonials.json')
       .then((res) => res.json())
-      .then(setTestimonials);
+      .then(setTestimonials)
+      .catch(error => console.error('Error loading testimonials:', error));
   }, []);
 
   const totalPages = Math.ceil(testimonials.length / testimonialsPerPage);

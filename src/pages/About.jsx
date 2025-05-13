@@ -60,8 +60,8 @@ export default function About() {
               className="relative overflow-hidden rounded-xl shadow-lg"
             >
               <img
-                src="/images/dr-shaikh-with-robot.webp"
-                alt="Dr. Shaikh with Surgical Robot"
+                src={`${import.meta.env.BASE_URL}images/dr-shaikh-with-robot.webp`}
+                alt="Dr. Shaikh with Robot"
                 className="w-full h-64 object-cover object-[center_30%]"
               />
             </motion.div>
@@ -70,7 +70,7 @@ export default function About() {
               className="relative overflow-hidden rounded-xl shadow-lg"
             >
               <img
-                src="/images/dr-shaikh-speaking.jpeg"
+                src={`${import.meta.env.BASE_URL}images/dr-shaikh-speaking.jpeg`}
                 alt="Dr. Shaikh Speaking"
                 className="w-full h-64 object-cover object-[center_30%]"
               />
@@ -80,7 +80,7 @@ export default function About() {
               className="relative overflow-hidden rounded-xl shadow-lg"
             >
               <img
-                src="/images/dr-shaikh-team.png"
+                src={`${import.meta.env.BASE_URL}images/dr-shaikh-team.png`}
                 alt="Dr. Shaikh's Team"
                 className="w-full h-64 object-cover object-[center_30%]"
               />
@@ -90,8 +90,8 @@ export default function About() {
               className="relative overflow-hidden rounded-xl shadow-lg"
             >
               <img
-                src="/images/dr-shaikh-surgery.png"
-                alt="Surgical Procedure"
+                src={`${import.meta.env.BASE_URL}images/dr-shaikh-surgery.png`}
+                alt="Dr. Shaikh in Surgery"
                 className="w-full h-64 object-cover object-[center_30%]"
               />
             </motion.div>
