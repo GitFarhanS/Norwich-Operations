@@ -4,7 +4,7 @@ export default function Featured() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch('/Norwich-Operations/featured.json')
+    fetch(`${import.meta.env.BASE_URL}featured.json`)
       .then((res) => res.json())
       .then(setArticles)
       .catch(error => console.error('Error loading featured content:', error));

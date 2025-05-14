@@ -7,7 +7,7 @@ export default function Testimonials() {
   const testimonialsPerPage = 3;
 
   useEffect(() => {
-    fetch('/Norwich-Operations/testimonials.json')
+    fetch(`${import.meta.env.BASE_URL}testimonials.json`)
       .then((res) => res.json())
       .then(setTestimonials)
       .catch(error => console.error('Error loading testimonials:', error));
