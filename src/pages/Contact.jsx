@@ -146,7 +146,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 bg-blue-500 !text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl"
           >
-            Book an Appointment on Spire Healthcare
+            Book an Appointment with Professor Irshad Shaikh on Spire Healthcare
           </a>
         </motion.div>
       </div>
