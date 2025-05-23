@@ -139,6 +139,24 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
+
+        {/* iWantGreatCare Link */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mt-12 text-center"
+        >
+          <p className="text-gray-600 mb-4">All testimonials are sourced from</p>
+          <a 
+            href="https://www.iwantgreatcare.org/doctors/professor-irshad-shaikh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-3 bg-blue-500 !text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl"
+          >
+            View More Reviews on iWantGreatCare
+          </a>
+        </motion.div>
       </motion.div>
     </div>
   );

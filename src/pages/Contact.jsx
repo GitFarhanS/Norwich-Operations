@@ -76,7 +76,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-blue-800">Email</h3>
-                  <a href="mailto:donna.medicalsecretary@thelorn.es" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  <a href="mailto:donna.medicalsecretary@thelorn.es" className="text-blue-600 hover:text-blue-800 transition-colors break-all">
                     donna.medicalsecretary@thelorn.es
                   </a>
                 </div>
@@ -117,7 +117,7 @@ export default function Contact() {
                 src={`${import.meta.env.BASE_URL}images/dr-shaikh-outside.jpg`}
                 alt="Hospital Building"
                 className="w-full h-96 object-cover"
-                style={{ objectPosition: '20% center' }}
+                style={{ objectPosition: '80% center' }}
               />
             </motion.div>
             <motion.div
@@ -140,9 +140,14 @@ export default function Contact() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="max-w-4xl mx-auto mt-16 text-center"
         >
-          <p className="text-gray-600">
-            Contact form coming soon. In the meantime, please use the contact information above to get in touch.
-          </p>
+          <a 
+            href="https://www.spirehealthcare.com/consultant-profiles/mr-irshad-shaikh-c6067782/#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 bg-blue-500 !text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl"
+          >
+            Book an Appointment on Spire Healthcare
+          </a>
         </motion.div>
       </div>
     </div>

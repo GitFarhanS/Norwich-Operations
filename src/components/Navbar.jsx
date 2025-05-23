@@ -7,11 +7,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img
-            src={`${import.meta.env.BASE_URL}images/ftlogo.png`}
-            alt="Professor Irshad Shaikh"
-            className="h-10 w-auto hidden md:block"
+            src={`${import.meta.env.BASE_URL}images/norwich-operations-logo-top.png`}
+            alt="Norwich Operations Logo"
+            className="h-14 w-auto"
           />
-          <span className="text-lg font-bold text-gray-800 ml-2 hidden md:block">Prof. Irshad Shaikh</span>
         </div>
         <div className="flex space-x-4 md:space-x-6 text-sm md:text-base">
           <Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link>
