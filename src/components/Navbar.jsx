@@ -25,6 +25,7 @@ const Navbar = () => {
             <Link to="/testimonials" className="text-blue-700 hover:text-blue-900">Testimonials</Link>
             <Link to="/featured" className="text-blue-700 hover:text-blue-900">Featured</Link>
             <Link to="/links" className="text-blue-700 hover:text-blue-900">Links</Link>
+            <Link to="/media" className="text-blue-700 hover:text-blue-900">Media</Link>
             <Link to="/contact" className="text-blue-700 hover:text-blue-900">Contact</Link>
           </div>
           {/* Hamburger */}
@@ -52,6 +53,7 @@ const Navbar = () => {
               <Link to="/testimonials" className="block text-blue-700 py-2 px-4 hover:bg-blue-50 rounded" onClick={() => setIsOpen(false)}>Testimonials</Link>
               <Link to="/featured" className="block text-blue-700 py-2 px-4 hover:bg-blue-50 rounded" onClick={() => setIsOpen(false)}>Featured</Link>
               <Link to="/links" className="block text-blue-700 py-2 px-4 hover:bg-blue-50 rounded" onClick={() => setIsOpen(false)}>Links</Link>
+              <Link to="/media" className="block text-blue-700 py-2 px-4 hover:bg-blue-50 rounded" onClick={() => setIsOpen(false)}>Media</Link>
               <Link to="/contact" className="block text-blue-700 py-2 px-4 hover:bg-blue-50 rounded" onClick={() => setIsOpen(false)}>Contact</Link>
             </div>
           </div>

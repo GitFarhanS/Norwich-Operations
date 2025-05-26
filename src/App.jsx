@@ -8,6 +8,7 @@ import Testimonials from "./pages/Testimonials";
 import Featured from "./pages/Featured";
 import Treatments from "./pages/Treatments";
 import Links from "./pages/Links";
+import Media from "./pages/Media";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/featured" element={<Featured />} />
             <Route path="/treatments" element={<Treatments />} />
             <Route path="/links" element={<Links />} />
+            <Route path="/media" element={<Media />} />
           </Routes>
         </main>
         <Footer />
