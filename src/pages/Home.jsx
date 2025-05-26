@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-blue-50 to-white min-h-screen">
+    <div className="bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-6 py-16">
         {/* Hero Section */}
         <motion.div 

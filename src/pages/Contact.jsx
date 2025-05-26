@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <div className="bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-6 py-16">
         {/* Hero Section */}
         <motion.div
@@ -102,27 +102,16 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Right Column - Images */}
+          {/* Right Column - Image */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="grid grid-cols-1 gap-4"
+            className="flex items-start justify-center"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="relative overflow-hidden rounded-xl shadow-lg"
-            >
-              <img
-                src={`${import.meta.env.BASE_URL}images/dr-shaikh-outside.jpg`}
-                alt="Hospital Building"
-                className="w-full h-96 object-cover"
-                style={{ objectPosition: '80% center' }}
-              />
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="relative overflow-hidden rounded-xl shadow-lg"
+              className="relative overflow-hidden rounded-2xl shadow-lg w-full"
             >
               <img
                 src={`${import.meta.env.BASE_URL}images/dr-shaikh-scrubs.jpeg`}

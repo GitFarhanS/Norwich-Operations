@@ -12,6 +12,7 @@ const urls = [
   "https://www.nnuh.nhs.uk/news/celebrating-the-success-of-our-robotic-assisted-surgical-programme/",
   "https://www.nnuh.nhs.uk/news/2020/03/research-grant-won-by-cancer-specialists/",
   "https://interestingengineering.com/culture/14-surgeons-and-one-robot-work-simultaneously-on-one-cancer-surgery?utm_source=chatgpt.com",
+  "https://www.dailymail.co.uk/health/article-8750669/Robot-14-surgeons-work-single-cancer-patient.html"
 ];
 
 async function scrapeMetadata(url) {
